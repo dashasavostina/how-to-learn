@@ -259,13 +259,15 @@
 .footer__columns {
   width: 90%;
   margin: 0 auto;
-  position: relative;
   display: flex;
   justify-content: space-between;
 }
 
-.column_content_copyright {
+.footer__column_content_copyright {
   flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .logo_place_footer {
@@ -276,9 +278,8 @@
 }
 
 .author {
-  position: absolute;
-  bottom: 18px;
-  left: 0;
+  padding: 18px 0;
+  margin: 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: 400;

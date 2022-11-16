@@ -1,3 +1,22 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+html {
+
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */

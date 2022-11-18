@@ -267,6 +267,7 @@
   background-color: #1f1f1f;
   padding: 60px 0 40px;
   display: flex;
+  min-height: 350px;
 }
 
 .footer__columns {
@@ -285,12 +286,10 @@
 
 .logo_place_footer {
   background-image: url(../images/logo_place_footer.svg);
-  height: 32px;
-  width: 228px;
   margin: 0;
 }
 
-.author {
+.footer__author {
   padding: 18px 0;
   margin: 0;
   line-height: 25px;
@@ -314,7 +313,7 @@
   width: 16px;
 }
 
-.footer__column-links {
+.footer__list {
   list-style-type: none;
   margin: 0;
   padding: 0 0 16px;

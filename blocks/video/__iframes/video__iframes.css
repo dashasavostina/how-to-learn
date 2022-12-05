@@ -1,0 +1,7 @@
+.video__iframes {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    transform: translateY(60px);
+    z-index: 1;
+  }
